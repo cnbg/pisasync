@@ -1,0 +1,2450 @@
+[
+    {
+        "citizen_id": "2338a2ce-542a-4475-a19d-b32a782c3911",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Амир",
+        "last_name": "Асанбеков"
+    },
+    {
+        "citizen_id": "a301f3f8-eab6-4767-b4ba-69cfc98710c2",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Атай",
+        "last_name": "Асылбеков"
+    },
+    {
+        "citizen_id": "2961e4c4-8ca5-4f39-a5c6-9177955233fa",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Биназир",
+        "last_name": "Мавлянова"
+    },
+    {
+        "citizen_id": "f52e5228-df42-4140-90e3-fb65e913735b",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Бауржан",
+        "last_name": "Уланов"
+    },
+    {
+        "citizen_id": "b04c678a-3411-4597-a71c-f8078c8019dc",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10Б",
+        "first_name": "Аяна",
+        "last_name": "Абасканова"
+    },
+    {
+        "citizen_id": "5c4898a1-2e8e-4125-90aa-c0b61d1ca3ac",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10Б",
+        "first_name": "Сайкал",
+        "last_name": "Асынбекова"
+    },
+    {
+        "citizen_id": "38ba8856-8426-4e2d-8351-15b4741ce6ec",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Расул",
+        "last_name": "Головин"
+    },
+    {
+        "citizen_id": "9aefd642-0e2b-4151-80cd-e01525bb0f4e",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Алинур",
+        "last_name": "Камбарбеков"
+    },
+    {
+        "citizen_id": "ca978184-dc56-44de-a9eb-5862378303cc",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Байэл",
+        "last_name": "Дуйшенакунов"
+    },
+    {
+        "citizen_id": "9aaabc20-3f9f-4f4c-b86e-e912988659a7",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Алияр",
+        "last_name": "Омуркулов"
+    },
+    {
+        "citizen_id": "98bc5f7d-01a8-4556-921d-df98741a2c41",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Темирлан",
+        "last_name": "Сапарбаев"
+    },
+    {
+        "citizen_id": "ed592c80-3e3d-4c82-8dfd-6a57b3b3c39c",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Гульназик",
+        "last_name": "Торокулова"
+    },
+    {
+        "citizen_id": "cccd5691-24c4-406d-8857-621702581f9a",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Арафат",
+        "last_name": "Абдыжапаров"
+    },
+    {
+        "citizen_id": "1357a87f-2f20-45f7-a309-4564e651636d",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Айпери",
+        "last_name": "Батырбекова"
+    },
+    {
+        "citizen_id": "419392d7-f58a-46a0-a909-b9527fa816c8",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Алтынай",
+        "last_name": "Жолдошбекова"
+    },
+    {
+        "citizen_id": "0212854e-0879-4ce7-9118-3e2367710c4c",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Аймеке",
+        "last_name": "Уланбекова"
+    },
+    {
+        "citizen_id": "c14470a1-2fb5-49c4-9e96-a69fe6a9e9e3",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Айбийке",
+        "last_name": "Джапарова"
+    },
+    {
+        "citizen_id": "107c53bc-3850-4827-ba51-abf4d7e17ed6",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Раяна",
+        "last_name": "Качкынбаева"
+    },
+    {
+        "citizen_id": "9fb981a3-376a-49de-971b-8fba44ac8c8f",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Ажар",
+        "last_name": "Рыскулова"
+    },
+    {
+        "citizen_id": "5fc88479-cd14-49fd-bc32-bef3f1cf427e",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Нурсултан",
+        "last_name": "Уметалиев"
+    },
+    {
+        "citizen_id": "a3ed1495-35dc-4b34-ab66-0abd606c0e55",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Салман",
+        "last_name": "Турдалиев"
+    },
+    {
+        "citizen_id": "72b5f7a2-1a4e-4a84-b83e-c99fb207d78c",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Нурислам",
+        "last_name": "Эргешов"
+    },
+    {
+        "citizen_id": "2d274db4-a3af-4b18-88ee-192a6548e891",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Ислам",
+        "last_name": "Самарбеков"
+    },
+    {
+        "citizen_id": "e31158ef-e4bd-4d71-a58f-b6f567c3cdbf",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Айэлес",
+        "last_name": "Алмасбекова"
+    },
+    {
+        "citizen_id": "45f2b4f4-dc80-46e7-a66e-5de00114264a",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Адэлина",
+        "last_name": "Таалайбекова"
+    },
+    {
+        "citizen_id": "c162af03-0574-4d07-a0ce-85914d8671cd",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Аделя",
+        "last_name": "Токтоболотова"
+    },
+    {
+        "citizen_id": "2b0c77cd-cb29-4273-a66d-462b1534402c",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Омейир",
+        "last_name": "Токтакунов"
+    },
+    {
+        "citizen_id": "444275e7-93fd-4a53-b62c-3000d1772375",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Байаман",
+        "last_name": "Болотбеков"
+    },
+    {
+        "citizen_id": "7ee3ad25-5085-4669-96f3-1941081174a7",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Айбийке",
+        "last_name": "Усманова"
+    },
+    {
+        "citizen_id": "ea080360-46bf-4899-9ced-8add91ea73e2",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Русланбек",
+        "last_name": "Расылов"
+    },
+    {
+        "citizen_id": "b99370f8-7b21-4d77-a98e-a545828c45ec",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Акмарал",
+        "last_name": "Асылбекова"
+    },
+    {
+        "citizen_id": "dc9884c0-fdff-4b96-88af-b95b729b7c59",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Умар",
+        "last_name": "Жумагулов"
+    },
+    {
+        "citizen_id": "7d5d237b-84cc-4990-b175-c21df3674809",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Нурсултан",
+        "last_name": "Бостонов"
+    },
+    {
+        "citizen_id": "a98f6e3d-a5d9-488e-9616-0386f8d37e0a",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Амина",
+        "last_name": "Торубаева"
+    },
+    {
+        "citizen_id": "d3eb6db2-1dcd-41e7-b2a2-428397eaa1b0",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Нурэмир",
+        "last_name": "Мээримбеков"
+    },
+    {
+        "citizen_id": "76450c3a-1c7c-4f4c-bdf9-63ac6df2e9d4",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Уулкан",
+        "last_name": "Рысбекова"
+    },
+    {
+        "citizen_id": "8c6fc90e-5822-4cf3-90f9-4a8a93b7d916",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А",
+        "first_name": "Айзирек",
+        "last_name": "Алимкулова"
+    },
+    {
+        "citizen_id": "25e87633-bfd5-4350-945b-29df09263414",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Амирбек",
+        "last_name": "Джолдошбеков"
+    },
+    {
+        "citizen_id": "dd0efd53-70b4-43e1-9e77-07980aaa9f44",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10А",
+        "first_name": "Нагима",
+        "last_name": "Кариева"
+    },
+    {
+        "citizen_id": "5025e09b-47cf-473a-a13c-e45d30fd3b37",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10А",
+        "first_name": "Айбике",
+        "last_name": "Кыдыкова"
+    },
+    {
+        "citizen_id": "63a7a43e-6f7d-4a57-bc92-61513ef14d4a",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10А",
+        "first_name": "Беназир",
+        "last_name": "Иманалиева"
+    },
+    {
+        "citizen_id": "1a4946c2-8aae-4b59-8790-eab92c6da139",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10А",
+        "first_name": "Арсен",
+        "last_name": "Жумабеков"
+    },
+    {
+        "citizen_id": "b1753b73-d996-461e-b1f2-ec80e0334d04",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10А",
+        "first_name": "Медина",
+        "last_name": "Алпамышова"
+    },
+    {
+        "citizen_id": "5bcf847b-e268-488b-9bfc-9c4d74ffec0d",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10А",
+        "first_name": "Назик",
+        "last_name": "Рабаева"
+    },
+    {
+        "citizen_id": "fda1e71f-5a06-44eb-a49c-ba41654211f9",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10А",
+        "first_name": "Айдар",
+        "last_name": "Казаков"
+    },
+    {
+        "citizen_id": "ac85091f-4efd-4f2e-a2bf-f239460c41a1",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Арууке",
+        "last_name": "Нургазиева"
+    },
+    {
+        "citizen_id": "abdf4d5b-8031-4212-8c46-0c250015863d",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Зариф",
+        "last_name": "Абдуллаев"
+    },
+    {
+        "citizen_id": "741f4604-7458-4803-b1f2-eafa3ab97066",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Алиса",
+        "last_name": "Гулакова"
+    },
+    {
+        "citizen_id": "b1ad2e6c-0375-4dac-8a56-000e5dc698d2",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Амина",
+        "last_name": "Орозбекова"
+    },
+    {
+        "citizen_id": "b77456f4-235d-45e1-b144-c1d612d2d259",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Сезим",
+        "last_name": "Орозбекова"
+    },
+    {
+        "citizen_id": "32a7daef-c315-4345-b89e-39f34023f9fe",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Элхан",
+        "last_name": "Кумушбеков"
+    },
+    {
+        "citizen_id": "d792c171-a60d-4622-9ab0-920a4d014855",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Арсен",
+        "last_name": "Касымбеков"
+    },
+    {
+        "citizen_id": "b71f63e1-95a4-477d-a6ea-cd8e5e0545cc",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Азрят",
+        "last_name": "Иляхунов"
+    },
+    {
+        "citizen_id": "946f0f29-7a76-4b6a-b50f-60b92808ff55",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Аяна",
+        "last_name": "Мухтарова"
+    },
+    {
+        "citizen_id": "d72c22bb-3fa2-4532-b72f-233c003e5cf0",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Айзирек",
+        "last_name": "Кемерова"
+    },
+    {
+        "citizen_id": "0139faf4-55f7-49c1-bcdd-12ad7acc5820",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Имран",
+        "last_name": "Ахунбаев"
+    },
+    {
+        "citizen_id": "023c3dfc-5825-4037-a25e-97c25083696c",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Батухан",
+        "last_name": "Демирозу"
+    },
+    {
+        "citizen_id": "617c2fc4-6078-49cb-a24d-9bc76411ebd7",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Абайхан",
+        "last_name": "Жумалиев"
+    },
+    {
+        "citizen_id": "cd36975a-477d-48d0-bbc2-6c93fe515a73",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Данияр",
+        "last_name": "Советбеков"
+    },
+    {
+        "citizen_id": "e3b2b1ab-0404-408f-ad25-6a4d00b73c29",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Ариет",
+        "last_name": "Бактыбекова"
+    },
+    {
+        "citizen_id": "f67a104e-538f-4d88-a7e5-bd87629f6fd0",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Бекхан",
+        "last_name": "Анарбаев"
+    },
+    {
+        "citizen_id": "8c054972-d3d5-4126-9f6f-9904baf9c43e",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Эмин",
+        "last_name": "Мавалин"
+    },
+    {
+        "citizen_id": "beadf9c4-c886-4b5e-9cda-83c456cbd2ad",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Амира",
+        "last_name": "Айтиева"
+    },
+    {
+        "citizen_id": "91ca0dbc-4384-4bce-99c7-9610c1d21592",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Айдар",
+        "last_name": "Асанбеков"
+    },
+    {
+        "citizen_id": "39b7ccd2-d746-470c-ac08-e8722ee777fd",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Актан",
+        "last_name": "Советбеков"
+    },
+    {
+        "citizen_id": "1c4eb4df-b990-44e0-b439-a373ea236c8b",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Сайкал",
+        "last_name": "Канатбекова"
+    },
+    {
+        "citizen_id": "7ea3c2c3-3342-4927-85d1-56e2d834708d",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Айбике",
+        "last_name": "Айбекова"
+    },
+    {
+        "citizen_id": "02de907a-5e01-4576-9745-26a2abf805ec",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Осман",
+        "last_name": "Айсаев"
+    },
+    {
+        "citizen_id": "3b48ad05-14a3-4177-8452-0e43b0b45d34",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Айлун",
+        "last_name": "Кумарбекова"
+    },
+    {
+        "citizen_id": "b0e17404-185d-4646-a563-80edb77ed701",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Эрик",
+        "last_name": "Эшимбеков"
+    },
+    {
+        "citizen_id": "98e4ae0a-7fa9-4bc7-9f3b-21548c2198b1",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Аслан",
+        "last_name": "Айткулиев"
+    },
+    {
+        "citizen_id": "d75f8511-7c46-4798-8964-30cb59893ea7",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Эльдияр",
+        "last_name": "Сопоков"
+    },
+    {
+        "citizen_id": "5df9e93e-b11f-43c0-a750-03e85d947a7f",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Алихан",
+        "last_name": "Галиакпаров"
+    },
+    {
+        "citizen_id": "47ed8273-d369-40fc-995f-00917f6c9ae0",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Алишер",
+        "last_name": "Юлдашев"
+    },
+    {
+        "citizen_id": "9c5d9ec4-0a46-403b-8573-109f6faec091",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д",
+        "first_name": "Иса",
+        "last_name": "Жолдошбеков"
+    },
+    {
+        "citizen_id": "9cb15a0c-11c7-4d4a-bc8c-c47a04c3883b",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10В",
+        "first_name": "Баэл",
+        "last_name": "Сооронбаев"
+    },
+    {
+        "citizen_id": "d3c9a10e-ebb9-480c-9847-f2c271dee578",
+        "school_id": "22204074",
+        "grade": 8,
+        "class_name": "8Е",
+        "first_name": "Даткайым",
+        "last_name": "Мырзаканова"
+    },
+    {
+        "citizen_id": "7888b7e8-bb04-46a3-9bc7-503572354af2",
+        "school_id": "22204074",
+        "grade": 8,
+        "class_name": "8Ж",
+        "first_name": "Ратмир",
+        "last_name": "Волков"
+    },
+    {
+        "citizen_id": "aadc2d3c-570d-4954-ac63-fff5966f919d",
+        "school_id": "22204074",
+        "grade": 8,
+        "class_name": "8В",
+        "first_name": "Адиль",
+        "last_name": "Элистанов"
+    },
+    {
+        "citizen_id": "c5ed4a7e-b544-40f7-bf6f-934f7507dd8a",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Курманбек",
+        "last_name": "Маматжанов"
+    },
+    {
+        "citizen_id": "d8bba2cb-245f-4797-b394-7906620ef232",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Адилет",
+        "last_name": "Шакиртов"
+    },
+    {
+        "citizen_id": "70fc19c1-ee8b-4ac1-a00a-86d01bde8c28",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Дауд",
+        "last_name": "Сраждинов"
+    },
+    {
+        "citizen_id": "5cafa1d0-caf8-4607-a5a9-d428ddc0e292",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Баяман",
+        "last_name": "Уланбеков"
+    },
+    {
+        "citizen_id": "9e7305b5-86d6-4697-9da7-1e1a21d9049f",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Сания",
+        "last_name": "Касымова"
+    },
+    {
+        "citizen_id": "a6c23f48-688a-434d-9ec8-eeadfbf31418",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Мээримай",
+        "last_name": "Айдарова"
+    },
+    {
+        "citizen_id": "25650279-8298-4717-85a1-bf9041e57c7c",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Акмарал",
+        "last_name": "Жыргалова"
+    },
+    {
+        "citizen_id": "dc7d887a-4c33-4cc4-bc39-edcfbd8d5fb9",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Арсен",
+        "last_name": "Енгалычев"
+    },
+    {
+        "citizen_id": "47903b84-d50f-407f-9a35-aab44c8fd26f",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Аделия",
+        "last_name": "Орозобекова"
+    },
+    {
+        "citizen_id": "f70a071f-bdc8-459d-a0e2-eff5403c89d8",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Эрбол",
+        "last_name": "Асанкадыров"
+    },
+    {
+        "citizen_id": "2c4d4f7d-5b0e-43dc-bce2-f6e3561c6e92",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Арлен",
+        "last_name": "Касымбеков"
+    },
+    {
+        "citizen_id": "71aab04a-2a8c-47e3-bf97-ec0d722f170d",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Бегайым",
+        "last_name": "Жумабекова"
+    },
+    {
+        "citizen_id": "ffa4c16f-9bfd-408d-a330-649ae03d5b54",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Алина",
+        "last_name": "Ким"
+    },
+    {
+        "citizen_id": "807b8554-5fd0-41c3-8992-466ac9a51f40",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Самира",
+        "last_name": "Койчиева"
+    },
+    {
+        "citizen_id": "b625ba50-97df-460f-b20d-9f5222bfa67f",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Малика",
+        "last_name": "Араб"
+    },
+    {
+        "citizen_id": "9a013cbc-4eae-4761-9b84-4d8df5661d98",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Владислав",
+        "last_name": "Кан"
+    },
+    {
+        "citizen_id": "816cfb32-0fb7-491a-8b11-a8882d45a71e",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Акбай",
+        "last_name": "Чинтемиров"
+    },
+    {
+        "citizen_id": "ad3042e4-428e-423e-be54-119d74f9d3a4",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Айтурган",
+        "last_name": "Максатбекова"
+    },
+    {
+        "citizen_id": "67464dc9-824b-452c-a695-6259d8768402",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Айдар",
+        "last_name": "Абдилазизов"
+    },
+    {
+        "citizen_id": "cfb37f81-e8b2-4090-880a-180778cdd337",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Амелия",
+        "last_name": "Орозобекова"
+    },
+    {
+        "citizen_id": "3f857267-b112-4711-915c-a80e6731d25d",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Амантай",
+        "last_name": "Абдималиков"
+    },
+    {
+        "citizen_id": "e8577d94-2351-4d8f-ae53-18868c5f278a",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Жаная",
+        "last_name": "Найманбаева"
+    },
+    {
+        "citizen_id": "c884551d-1208-4d70-88c9-5de2da50f94b",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Айдана",
+        "last_name": "Дуйшеева"
+    },
+    {
+        "citizen_id": "c5faa3e3-6b68-40ad-98b4-d7ed9447542d",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Айше",
+        "last_name": "Абула"
+    },
+    {
+        "citizen_id": "633839ee-e77a-42f7-a07f-55e6edad0f9c",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Джаннат",
+        "last_name": "Бахтиярова"
+    },
+    {
+        "citizen_id": "3b1d4c80-6c58-4ac4-a03f-d272f3fcdcce",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Амина",
+        "last_name": "Азаматова"
+    },
+    {
+        "citizen_id": "9a99b8d8-9cb6-4a26-bf31-32b9256700ad",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Тагир",
+        "last_name": "Хилоу"
+    },
+    {
+        "citizen_id": "e14c8b5e-75d7-4e61-b70f-71806d542737",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Даяна",
+        "last_name": "Дуйшеева"
+    },
+    {
+        "citizen_id": "f8728384-ead8-4ef1-8aad-b22127f6a6df",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Чынгыз",
+        "last_name": "Асантаев"
+    },
+    {
+        "citizen_id": "c21dcf89-14df-4a84-922e-818024436f3e",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Даниэль",
+        "last_name": "Дастанов"
+    },
+    {
+        "citizen_id": "74fe9fbf-1438-4afe-a100-f6d755cc6673",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Акылай",
+        "last_name": "Назарбекова"
+    },
+    {
+        "citizen_id": "2ca3bc35-a019-4cb6-95d7-f927c9ae337e",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Расул",
+        "last_name": "Супохунов"
+    },
+    {
+        "citizen_id": "a6b285ad-fb43-4936-80bc-2d22983d9133",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Давлет",
+        "last_name": "Данияров"
+    },
+    {
+        "citizen_id": "bf70cec1-b5b1-4df3-82bd-526388d06969",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Бектур",
+        "last_name": "Рыспеков"
+    },
+    {
+        "citizen_id": "2d0b3e97-39e1-4156-b5c6-7ff4a4cf5571",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Алибек",
+        "last_name": "Тилекеев"
+    },
+    {
+        "citizen_id": "68049987-e214-4663-95b5-7871c5866d1a",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Амани",
+        "last_name": "Кулмурзаева"
+    },
+    {
+        "citizen_id": "ed0cd796-7622-4345-97b0-deabf918379f",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Алибек",
+        "last_name": "Кудайбердиев"
+    },
+    {
+        "citizen_id": "b6773c89-b339-41a0-bb16-548158f3c171",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Шахриёр",
+        "last_name": "Хакимов"
+    },
+    {
+        "citizen_id": "2affc58d-8e71-43b2-8a51-d8a5bdd55f9e",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9В",
+        "first_name": "Камилла",
+        "last_name": "Айткулова"
+    },
+    {
+        "citizen_id": "c8ef7fc8-7155-4816-a730-e4e5a27aee89",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Бектур",
+        "last_name": "Манапбаев"
+    },
+    {
+        "citizen_id": "7b7e3eaf-dd61-471c-b833-689cd512ebcc",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Темурлан",
+        "last_name": "Козуев"
+    },
+    {
+        "citizen_id": "d87c131f-c71b-43b8-837d-1aea6c3dd6ef",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Исламбек",
+        "last_name": "Токторбаев"
+    },
+    {
+        "citizen_id": "6278d675-8bbd-4055-8e60-a3cf50ae9681",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Седеп",
+        "last_name": "Султанбекова"
+    },
+    {
+        "citizen_id": "96c6de7d-a518-4868-9491-3c76929ed761",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Касиет",
+        "last_name": "Бейшенкулова"
+    },
+    {
+        "citizen_id": "c7a56149-47be-4225-bb4c-26fea5326151",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Мээрим",
+        "last_name": "Сейитова"
+    },
+    {
+        "citizen_id": "98b353c3-9ca8-418a-afd4-357f6583516f",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Элдана",
+        "last_name": "Турдубаева"
+    },
+    {
+        "citizen_id": "61551e0c-f943-4fdc-a608-f81574d7c883",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Бектур",
+        "last_name": "Кубанычбеков"
+    },
+    {
+        "citizen_id": "ad398fe9-e324-4055-a256-0c927ee42da1",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Нуржаннат",
+        "last_name": "Талканбаева"
+    },
+    {
+        "citizen_id": "59143116-e59e-450a-a0ea-20a723572db6",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Адинай",
+        "last_name": "Темирбекова"
+    },
+    {
+        "citizen_id": "0e32eed5-6109-4171-af0d-98b6e11e7bb3",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Нурмухаммед",
+        "last_name": "Асилбеков"
+    },
+    {
+        "citizen_id": "d25f31ba-e855-48cd-8618-61c3554d8930",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Нурсултан",
+        "last_name": "Анарбаев"
+    },
+    {
+        "citizen_id": "ef99fc7c-88a8-4368-9256-cd9b3ea5f2d8",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Айсанэм",
+        "last_name": "Акылбекова"
+    },
+    {
+        "citizen_id": "c3228bfd-c59c-49e9-9d7b-24591f02029a",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Азат",
+        "last_name": "Исмаилов"
+    },
+    {
+        "citizen_id": "d2607db7-cf51-4335-99cb-4f9bf8163082",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Зарина",
+        "last_name": "Тултаева"
+    },
+    {
+        "citizen_id": "b1ede509-39a7-43be-9df9-f8f8a8db9f5c",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Алибек",
+        "last_name": "Кадырбеков"
+    },
+    {
+        "citizen_id": "e2383a8d-dd7f-40d2-956b-509fe6ab34bc",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Аима",
+        "last_name": "Абасова"
+    },
+    {
+        "citizen_id": "7751bd25-4d60-4304-8a60-7c01c258a5d1",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Азат",
+        "last_name": "Теңизов"
+    },
+    {
+        "citizen_id": "763c05fa-a864-40d1-84c4-b4e498a18236",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Саламат",
+        "last_name": "Сапарбеков"
+    },
+    {
+        "citizen_id": "b38d95e9-59eb-496d-b620-2e73c5b32a4a",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Адыл",
+        "last_name": "Нуржанов"
+    },
+    {
+        "citizen_id": "d38c17cf-40f5-4e66-8ef8-50a193b2c5d6",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Чынгыз",
+        "last_name": "Усубалиев"
+    },
+    {
+        "citizen_id": "6a28d719-6849-48f1-b754-ec60915cb63d",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Амангелди",
+        "last_name": "Асанов"
+    },
+    {
+        "citizen_id": "c08a6b67-8f0f-46dd-bac7-a320b3362227",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Аким",
+        "last_name": "Самаган уулу"
+    },
+    {
+        "citizen_id": "d96e42eb-bd40-4068-b85f-205177c12bfe",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Тимур",
+        "last_name": "Эсенбеков"
+    },
+    {
+        "citizen_id": "7a4fc557-d2cd-47fd-a64a-85e5a93d8139",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Арафат",
+        "last_name": "Кубатбеков"
+    },
+    {
+        "citizen_id": "b5b83090-c015-444c-af26-e35c76a6b7ea",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Раййан",
+        "last_name": "Иманбеков"
+    },
+    {
+        "citizen_id": "42a09a8d-3637-483a-876c-bb020c66a806",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Бегайым",
+        "last_name": "Кубанычбекова"
+    },
+    {
+        "citizen_id": "adec88ad-a6f3-47ba-96c2-bc1dce02e0ac",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Зарема",
+        "last_name": "Садырова"
+    },
+    {
+        "citizen_id": "132b553d-2bcb-450d-af9f-648f750306ac",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Махмуд",
+        "last_name": "Насирдинов"
+    },
+    {
+        "citizen_id": "5b67ed7b-9156-4e22-98d4-59aab8834ff4",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Айкен",
+        "last_name": "Санжаров"
+    },
+    {
+        "citizen_id": "3cd5035d-21e0-4095-a105-c4b258f804c8",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Нурстанбек",
+        "last_name": "Нурбеков"
+    },
+    {
+        "citizen_id": "d505fad7-ad66-4721-8ddd-cd09c752a873",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Шерзат",
+        "last_name": "Салморбеков"
+    },
+    {
+        "citizen_id": "4b5fb475-d452-4519-a697-ad0baa7d3de4",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Б",
+        "first_name": "Канышай",
+        "last_name": "Жумагазиева"
+    },
+    {
+        "citizen_id": "bc1e7021-b06c-4667-a0b8-b1a56dd58736",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10Г",
+        "first_name": "Лия",
+        "last_name": "Исакеева"
+    },
+    {
+        "citizen_id": "a1afa9a7-e72e-4443-9ef7-68c6fd41d641",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Даниил",
+        "last_name": "Бежецкий"
+    },
+    {
+        "citizen_id": "a23eb978-c2ff-459b-af52-c97eab209575",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Султан",
+        "last_name": "Саякбаев"
+    },
+    {
+        "citizen_id": "ecfda349-c81b-40d6-8224-21d9fefe5620",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Алия",
+        "last_name": "Калыгулова"
+    },
+    {
+        "citizen_id": "8be4f881-3186-4b53-919c-92a361d80c76",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Айбийке",
+        "last_name": "Назаралиева"
+    },
+    {
+        "citizen_id": "635fec1b-bc44-41d2-8515-3b30ce2ce7d3",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Эмир",
+        "last_name": "Чоноев"
+    },
+    {
+        "citizen_id": "6cb28e64-6dd3-4c4b-b190-ee1a95996b90",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Маналь",
+        "last_name": "Мирланова"
+    },
+    {
+        "citizen_id": "cf9bbdd3-799d-4dde-8c00-5dbf7ebf7d3b",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Давлет",
+        "last_name": "Каныбеков"
+    },
+    {
+        "citizen_id": "eab77fd0-045f-449a-883d-92a077b31634",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Трофим",
+        "last_name": "Дудинских"
+    },
+    {
+        "citizen_id": "8b3e845d-04ce-4ac1-95b4-02371a75c040",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Эмирана",
+        "last_name": "Телякова"
+    },
+    {
+        "citizen_id": "56fea2cc-6916-4b14-81cf-3c0ec2e8f6e5",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Айдай",
+        "last_name": "Басалбекова"
+    },
+    {
+        "citizen_id": "41e96c06-3378-40f9-9e16-4df3b22542fb",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Бексултан",
+        "last_name": "Абдылдаев"
+    },
+    {
+        "citizen_id": "b027c6d1-30ff-4592-9fb6-616d2213e2b0",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Исхак",
+        "last_name": "Токтошев"
+    },
+    {
+        "citizen_id": "752b7e05-d122-4798-bc51-b034084358a5",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Бехруз",
+        "last_name": "Сахибаев"
+    },
+    {
+        "citizen_id": "ce6f1796-9bc3-4308-a7a9-0c414e28b1fc",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Нурэл",
+        "last_name": "Мураталиев"
+    },
+    {
+        "citizen_id": "0dfdac50-93d9-480d-b24b-12d037a979d9",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Адилет",
+        "last_name": "Чолпонбаев"
+    },
+    {
+        "citizen_id": "64a8c623-5a7c-44cf-8c8b-24fd3b3490dc",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Атай",
+        "last_name": "Алымбаев"
+    },
+    {
+        "citizen_id": "7544943c-ea83-40a0-9757-b4889219ddf7",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Дастан",
+        "last_name": "Рахматулин"
+    },
+    {
+        "citizen_id": "d561c355-6bd6-4610-98ca-e31e030e9149",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Алия",
+        "last_name": "Мамытова"
+    },
+    {
+        "citizen_id": "a8d7786b-e7f9-42b9-9b0e-459ed109a272",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Аяна",
+        "last_name": "Калыкова"
+    },
+    {
+        "citizen_id": "d8118fb9-70ee-46af-b872-7b683728169c",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Алмаш",
+        "last_name": "Кожошева"
+    },
+    {
+        "citizen_id": "a431d74b-7417-4085-aeb5-a7093996e7bf",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Иман",
+        "last_name": "Тагайбеков"
+    },
+    {
+        "citizen_id": "e6c5683e-ef51-4496-a659-60b57bfbb8ae",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Бексултан",
+        "last_name": "Дженишов"
+    },
+    {
+        "citizen_id": "207c1444-8430-4f7a-b059-9cf2a1a3333d",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Аделина",
+        "last_name": "Масимова"
+    },
+    {
+        "citizen_id": "3876c215-fa9a-49b4-8e15-2b8490bf1a34",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Айбике",
+        "last_name": "Маматова"
+    },
+    {
+        "citizen_id": "3d094326-0b67-40ed-babc-c3669f1a45db",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Гульбара",
+        "last_name": "Абдыкадырова"
+    },
+    {
+        "citizen_id": "dab118a0-9553-4f0f-b984-af7669948093",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Нагима",
+        "last_name": "Мырсраимова"
+    },
+    {
+        "citizen_id": "01c77ac5-fe6a-4200-ab12-0cf58d07e6df",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Айдин",
+        "last_name": "Казакпайев"
+    },
+    {
+        "citizen_id": "c20d40f3-b3b8-4a19-bf94-9687ac793792",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Тариэль",
+        "last_name": "Джарашев"
+    },
+    {
+        "citizen_id": "202d323e-9fa6-4640-864b-a3be379f7e92",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Камила",
+        "last_name": "Кузьмина"
+    },
+    {
+        "citizen_id": "9a8a56d2-82b4-4080-b3bc-1ce5eb674907",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Айсулуу",
+        "last_name": "Самиева"
+    },
+    {
+        "citizen_id": "ed5d6108-d1cc-469b-a112-93e0d2ec9956",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г",
+        "first_name": "Жылдыз",
+        "last_name": "Асылбекова"
+    },
+    {
+        "citizen_id": "d6fd5b2c-2c8d-40b6-8a82-ae65ac119e64",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Адеми",
+        "last_name": "Турумбекова"
+    },
+    {
+        "citizen_id": "bb59de46-6e66-4079-94d8-6175c8faa637",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Джахонгир",
+        "last_name": "Байматов"
+    },
+    {
+        "citizen_id": "970ab71d-f0b0-4a82-9392-d90eba6a84f0",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Руслан",
+        "last_name": "Сатыкулов"
+    },
+    {
+        "citizen_id": "cd1e3b1d-0aa9-461c-814c-6ef8c5a76c70",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Карим",
+        "last_name": "Габитов"
+    },
+    {
+        "citizen_id": "2381ff38-8538-4dd4-aff7-259a6a7dc965",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Алия",
+        "last_name": "Бегалиева"
+    },
+    {
+        "citizen_id": "58d59d60-d758-48e9-9c9a-d4382d6bc002",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Нурсултан",
+        "last_name": "Халдаров"
+    },
+    {
+        "citizen_id": "3b25e3b5-3666-4567-ad6b-394f9db653e4",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Амир",
+        "last_name": "Истанбеков"
+    },
+    {
+        "citizen_id": "703c0933-9ec3-4027-ad3b-2de8f8bc922a",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Айым",
+        "last_name": "Сагындыкова"
+    },
+    {
+        "citizen_id": "75c7a003-2e72-4900-98e1-66ea41058d46",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Исан",
+        "last_name": "Исакбеков"
+    },
+    {
+        "citizen_id": "8b913a62-194e-47ac-8a39-fb51baf497d9",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Искандер",
+        "last_name": "Алмазов"
+    },
+    {
+        "citizen_id": "d4fc8050-e8c8-468a-be76-7ef9e6a5038d",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Амина",
+        "last_name": "Кадимова"
+    },
+    {
+        "citizen_id": "3604bc44-916b-487f-b54f-54d9b484709c",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Жибек",
+        "last_name": "Абдиева"
+    },
+    {
+        "citizen_id": "ffbc856e-68dd-440a-849c-7beb5b2d04dc",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Сумая",
+        "last_name": "Курбан"
+    },
+    {
+        "citizen_id": "588f992e-cb5f-443c-b003-cb9dffa24ffc",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Темирбек",
+        "last_name": "Закирбеков"
+    },
+    {
+        "citizen_id": "cb11c20c-5893-40ee-96e8-a1164dfd0f46",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Милена",
+        "last_name": "Закенаева"
+    },
+    {
+        "citizen_id": "dd24b49d-563e-4729-8ac3-e9dff44d8462",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Данай",
+        "last_name": "Айтаков"
+    },
+    {
+        "citizen_id": "c2dde01c-1262-4672-bc76-1fe8e982249b",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Айбийке",
+        "last_name": "Батырбекова"
+    },
+    {
+        "citizen_id": "3f3dee9d-5787-49ae-b40e-b0f02248625d",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Акбий",
+        "last_name": "Садырбаев"
+    },
+    {
+        "citizen_id": "358892b6-edb9-4157-9d2c-0a13d690fc5a",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Ахмад",
+        "last_name": "Юбуров"
+    },
+    {
+        "citizen_id": "3aa3746f-7284-4892-976c-a2e4651a649e",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Алихан",
+        "last_name": "Касымов"
+    },
+    {
+        "citizen_id": "d42cadd8-b8a7-4133-8c54-59d2413483d4",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Бегимай",
+        "last_name": "Акматалиева"
+    },
+    {
+        "citizen_id": "d2d117d6-4cb1-49d9-a31d-607a99886f6a",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Назик",
+        "last_name": "Актанбекова"
+    },
+    {
+        "citizen_id": "1131a0e2-1c2f-4bc3-b618-a402d7f85357",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Байбол",
+        "last_name": "Сыдыков"
+    },
+    {
+        "citizen_id": "9e834083-b7e0-4695-980e-ea5ef2252aa1",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Байэл",
+        "last_name": "Шаршенов"
+    },
+    {
+        "citizen_id": "f5f24030-4312-4c1a-8331-bc3fbe762de1",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Сумайя",
+        "last_name": "Телякова"
+    },
+    {
+        "citizen_id": "e780a3fa-e056-45ee-9113-11693ed3161b",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Амир",
+        "last_name": "Оморов"
+    },
+    {
+        "citizen_id": "b99494e4-dfed-44ed-b905-bfa5d693c8ab",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Зарина",
+        "last_name": "Шакирова"
+    },
+    {
+        "citizen_id": "91c46c66-6464-4516-8671-0cfbc7df120b",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Мохаммад Юсуф",
+        "last_name": "Саид Гул Хан"
+    },
+    {
+        "citizen_id": "2b647830-a0dc-49ac-bab2-0ba2cf15297b",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е",
+        "first_name": "Сумая",
+        "last_name": "Жусупова"
+    },
+    {
+        "citizen_id": "5338c20d-8081-4be9-ba48-abe22a585bac",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Руслан",
+        "last_name": "Ким"
+    },
+    {
+        "citizen_id": "a25a9488-aa1a-40d5-adfd-5d158144047d",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Джамиля",
+        "last_name": "Галиева"
+    },
+    {
+        "citizen_id": "d4409dc4-ca41-4573-a206-8e81b74689db",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Мухаммед-Ясин",
+        "last_name": "Рустамов"
+    },
+    {
+        "citizen_id": "07fc0cc1-1fbb-4e87-b63d-5d2dceb4df77",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Даниел",
+        "last_name": "Назарбеков"
+    },
+    {
+        "citizen_id": "6eff8873-5090-46e2-9b0f-c4f3113349c1",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Лина",
+        "last_name": "Ризк Аль-Касаби"
+    },
+    {
+        "citizen_id": "816032a8-5903-4bee-881f-115bcc120962",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Элдар",
+        "last_name": "Апитов"
+    },
+    {
+        "citizen_id": "4839f967-f412-4cef-8ac7-e1644eca4d8a",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Атай",
+        "last_name": "Рахманжанов"
+    },
+    {
+        "citizen_id": "7b4acb3f-19be-40b6-9df0-3112b00594fa",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Айпери",
+        "last_name": "Мураталиева"
+    },
+    {
+        "citizen_id": "b65f1a52-a245-46e6-acde-0112c6b26332",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Алишер",
+        "last_name": "Иминов"
+    },
+    {
+        "citizen_id": "65c62141-390e-40b6-9ed8-6b41da4e9868",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Дарежан",
+        "last_name": "Джанузакова"
+    },
+    {
+        "citizen_id": "07e4ea63-52ce-4d57-9f49-e9d78224b72d",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Нураида",
+        "last_name": "Ибрагимова"
+    },
+    {
+        "citizen_id": "05423527-1ee3-4124-a849-e2d621285845",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Сахан",
+        "last_name": "Мизамбаев"
+    },
+    {
+        "citizen_id": "8413238a-fc2f-466d-9684-9389bc9cac0c",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "София",
+        "last_name": "Шин"
+    },
+    {
+        "citizen_id": "a279a8ae-0fb0-4630-8a16-fadfa40c1c24",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Адылбек",
+        "last_name": "Темиргалиев"
+    },
+    {
+        "citizen_id": "86fb13b2-4ab6-4d45-a9f7-4a3d2b1a9c6f",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Екатерина",
+        "last_name": "Фисенко"
+    },
+    {
+        "citizen_id": "18d29770-a4d9-4560-a923-2cc4d9d93a73",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Айдар",
+        "last_name": "Турганбаев"
+    },
+    {
+        "citizen_id": "78768c98-9308-4132-9f1e-9d4788aae558",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Жаннат",
+        "last_name": "Бакытова"
+    },
+    {
+        "citizen_id": "17297caf-6290-496c-ac68-66bf5e5f97df",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Эмирхан",
+        "last_name": "Апсаматов"
+    },
+    {
+        "citizen_id": "bd1419ff-8271-4482-9b6d-d239e4e6e829",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Фарух",
+        "last_name": "Миркаримов"
+    },
+    {
+        "citizen_id": "38145639-9580-41af-bac2-2b7b8e19e378",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Жамиля",
+        "last_name": "Абдыкеримова"
+    },
+    {
+        "citizen_id": "d51d962d-8720-49c7-8e6c-b5588cd97bf7",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Бекжан",
+        "last_name": "Шеримбеков"
+    },
+    {
+        "citizen_id": "dbd61e33-bbff-4fc4-b5a0-fd33983a8b79",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Баатырхан",
+        "last_name": "Кадралиев"
+    },
+    {
+        "citizen_id": "efad7814-6fe1-4d3e-9d57-c0fb0dd9ea3b",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Эмир",
+        "last_name": "Эрнисов"
+    },
+    {
+        "citizen_id": "35fd40e0-bc44-4d32-ae5d-2a6aa6c5109d",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Айзат",
+        "last_name": "Уланбекова"
+    },
+    {
+        "citizen_id": "ba3af8ab-2ab4-4846-843e-ee95e411473f",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Эмир",
+        "last_name": "Доолотбеков"
+    },
+    {
+        "citizen_id": "252d417b-8c84-4a2e-a90d-2b87294d1a66",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Касиет",
+        "last_name": "Майрамбекова"
+    },
+    {
+        "citizen_id": "36277c45-65f5-44be-adfb-739c96b5acd2",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Жаныбек",
+        "last_name": "Баракбеков"
+    },
+    {
+        "citizen_id": "e59d63b0-3f76-4d5e-ae43-5771fb3eac4c",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Алим",
+        "last_name": "Ибрагимов"
+    },
+    {
+        "citizen_id": "eb77596f-4079-4e61-b0f2-8304e8aae497",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Бегимай",
+        "last_name": "Ниязмаматова"
+    },
+    {
+        "citizen_id": "ea06e260-e597-4b15-b2e2-26c0a830aa24",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Абдурахман",
+        "last_name": "Истебаев"
+    },
+    {
+        "citizen_id": "7f266782-ace5-4bbb-9adb-29ce7a83035e",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Магомедрасул",
+        "last_name": "Будунов"
+    },
+    {
+        "citizen_id": "b77a37e1-2aec-4ac2-8a45-47b2ff1a7c1a",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Жаңыл",
+        "last_name": "Асанова"
+    },
+    {
+        "citizen_id": "f472ca5b-e75b-47cb-bab5-53edc05bc6f1",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Даниел",
+        "last_name": "Саматов"
+    },
+    {
+        "citizen_id": "de3c65c3-5121-4ed9-a511-c3309511f634",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Бермет",
+        "last_name": "Соодонбекова"
+    },
+    {
+        "citizen_id": "1c9cf721-151a-40e5-b4bc-e8b21237521e",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Амина",
+        "last_name": "Мусабекова"
+    },
+    {
+        "citizen_id": "e9535481-4579-4974-966e-20204d5be22a",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И",
+        "first_name": "Марьям",
+        "last_name": "Ризк Аль-Касаби"
+    },
+    {
+        "citizen_id": "a50718bd-3550-47e9-8549-ede5653ae91a",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Раяна",
+        "last_name": "Абдугафарова"
+    },
+    {
+        "citizen_id": "39ba5ec3-8b89-4029-b942-e5dd94d1cc65",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Милана",
+        "last_name": "Советова"
+    },
+    {
+        "citizen_id": "a068672f-eea0-4018-b7a8-79c85b9bd288",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Айман",
+        "last_name": "Асаналиева"
+    },
+    {
+        "citizen_id": "74c0d3c4-41f9-4c71-befb-87aead8ea290",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Айпери",
+        "last_name": "Карыпбекова"
+    },
+    {
+        "citizen_id": "3c5a2bd5-e644-45da-9c8d-2b7a20cfaefa",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Нурболот",
+        "last_name": "Камчыбеков"
+    },
+    {
+        "citizen_id": "8dfb1b48-c8eb-44f5-8c62-9b8657fe0296",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Акылай",
+        "last_name": "Токтошова"
+    },
+    {
+        "citizen_id": "5192d22d-5419-4cb8-9714-76688fd6828e",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Чингиз",
+        "last_name": "Давлетов"
+    },
+    {
+        "citizen_id": "11838f1a-4688-413b-8481-af0efff18684",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Кирилл",
+        "last_name": "Силантьев"
+    },
+    {
+        "citizen_id": "a63b5d0c-59b4-43ac-ae24-95c2fd40e3dd",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Амантур",
+        "last_name": "Исаков"
+    },
+    {
+        "citizen_id": "c776a4e3-05e2-4036-828c-98822d52650c",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Алия",
+        "last_name": "Кутуева"
+    },
+    {
+        "citizen_id": "892765b9-1598-4412-8b84-b9eb2ec8b75f",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Хадия",
+        "last_name": "Курбанова"
+    },
+    {
+        "citizen_id": "4f14748d-33bf-4277-aa52-508e4917d9cf",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Артур",
+        "last_name": "Силантьев"
+    },
+    {
+        "citizen_id": "af7106b1-8f4a-47df-8d19-8eed4a4ee540",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Бектур",
+        "last_name": "Бекмуканбетов"
+    },
+    {
+        "citizen_id": "7a839056-a3ed-47ae-b704-5f9f8793b049",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Даяна",
+        "last_name": "Жейренова"
+    },
+    {
+        "citizen_id": "b9d0c3ea-eb19-47e5-af4b-ea2ba4b3f32e",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Арина",
+        "last_name": "Макарова"
+    },
+    {
+        "citizen_id": "1f790e5e-bf68-4e44-a36f-7ed165ff4212",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Милана",
+        "last_name": "Шутова"
+    },
+    {
+        "citizen_id": "07f417de-18e7-400e-b092-192e78f1deb1",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Сафия",
+        "last_name": "Иралиева"
+    },
+    {
+        "citizen_id": "8141d830-ec58-4489-9c95-e31ae9a7ebfa",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Айпери",
+        "last_name": "Касымбаева"
+    },
+    {
+        "citizen_id": "dc7ab2fb-ac11-4e46-802a-2c0d0c265e2a",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Нурсултан",
+        "last_name": "Токтоназаров"
+    },
+    {
+        "citizen_id": "7b273db9-8686-4e60-a514-2953a3d77920",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Раяна",
+        "last_name": "Кадырбекова"
+    },
+    {
+        "citizen_id": "ab0f013c-12f0-47ec-829d-10b4c43b21cd",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Медина",
+        "last_name": "Жоомартбекова"
+    },
+    {
+        "citizen_id": "47a89be2-cee6-41c7-b9d9-5179e311114f",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Анастасия",
+        "last_name": "Савенкова"
+    },
+    {
+        "citizen_id": "bee36b26-2721-41e7-9c91-2afb6a41a92d",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Жазель",
+        "last_name": "Фархадова"
+    },
+    {
+        "citizen_id": "46eb690f-1865-4dde-88b6-bad8cf8ce481",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Аяна",
+        "last_name": "Аламанова"
+    },
+    {
+        "citizen_id": "0cdfb460-7f84-4b2e-934a-29c4deb69ee6",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Ильдар",
+        "last_name": "Богданов"
+    },
+    {
+        "citizen_id": "412b02cf-46e4-4110-a122-24871fa61558",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Арууке",
+        "last_name": "Кудайбердиева"
+    },
+    {
+        "citizen_id": "46b15e3a-6761-4c24-815b-b3315504ae41",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Алтынай",
+        "last_name": "Анварбекова"
+    },
+    {
+        "citizen_id": "651bc22c-7e0b-4dc8-a98f-2067279609dd",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Ж",
+        "first_name": "Айпери",
+        "last_name": "Шайбекова"
+    },
+    {
+        "citizen_id": "8d6f314d-b6d6-439a-bf2e-2ab1bfe4c245",
+        "school_id": "22204074",
+        "grade": 8,
+        "class_name": "8Б",
+        "first_name": "Мээрим",
+        "last_name": "Жолдошбекова"
+    },
+    {
+        "citizen_id": "91d636cb-e36c-44c3-9aad-d44c3fd6e2ae",
+        "school_id": "22204074",
+        "grade": 8,
+        "class_name": "8Б",
+        "first_name": "Эрмек",
+        "last_name": "Калыбеков"
+    },
+    {
+        "citizen_id": "128bd107-cc07-4197-a88b-f04334bdcb86",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10Б",
+        "first_name": "Адриана",
+        "last_name": "Зеленовская"
+    },
+    {
+        "citizen_id": "c121640f-1f2e-4896-9740-aae36a3d9d2f",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10Б",
+        "first_name": "Адель",
+        "last_name": "Асаналиева"
+    },
+    {
+        "citizen_id": "c3af2a62-f2f8-404a-857e-b59bc8e03887",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10Б",
+        "first_name": "Айжамал",
+        "last_name": "Апиева"
+    },
+    {
+        "citizen_id": "c859dce8-4895-4e2b-9dd2-fa16cb36b83f",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10Б",
+        "first_name": "Самира",
+        "last_name": "Смаилова"
+    },
+    {
+        "citizen_id": "c332f5a0-539d-4fd5-b9bb-75374c1b29f5",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10Б",
+        "first_name": "Полина",
+        "last_name": "Галилеева"
+    },
+    {
+        "citizen_id": "f1401b84-d580-4325-8371-3c3eb4fb467e",
+        "first_name": "Аяна",
+        "last_name": "Искендерова",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д"
+    },
+    {
+        "citizen_id": "2df5e498-9fba-4ea1-b885-67fe5888ef70",
+        "first_name": "Диана",
+        "last_name": "Сологубова",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г"
+    },
+    {
+        "citizen_id": "d6323855-e42b-4773-9009-5d90322a55ac",
+        "first_name": "Айгуль",
+        "last_name": "Кошокова",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10Г"
+    },
+    {
+        "citizen_id": "91897570-86e2-47f8-bcda-d21aa3860e25",
+        "first_name": "Сабина",
+        "last_name": "Касенова",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е"
+    },
+    {
+        "citizen_id": "ebc08bcd-1f4f-45cc-92c1-daf192d94d77",
+        "first_name": "Медина",
+        "last_name": "Чолпанова",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10Г"
+    },
+    {
+        "citizen_id": "4b3fe2fe-7bd9-4fa4-8fe4-947cc7809d6c",
+        "first_name": "Айкена",
+        "last_name": "Акжолтоева",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10Б"
+    },
+    {
+        "citizen_id": "cfa6d9df-b409-445d-8f4a-bd673dc02e55",
+        "first_name": "Арина",
+        "last_name": "Аскарбекова",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10Б"
+    },
+    {
+        "citizen_id": "de5dc911-2ccb-4b9f-b37c-041c97de22d0",
+        "first_name": "Айдай",
+        "last_name": "Акунова",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е"
+    },
+    {
+        "citizen_id": "1e0ea6d1-de2f-4b89-8eb4-401fff56b3ab",
+        "first_name": "Асема",
+        "last_name": "Болотбекова",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г"
+    },
+    {
+        "citizen_id": "ad73fee6-dd3a-43aa-9c35-d4df6590d030",
+        "first_name": "Фатима",
+        "last_name": "Жумабаева",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г"
+    },
+    {
+        "citizen_id": "29213f74-f6f6-4b2d-9acb-68add9fa096a",
+        "first_name": "Кайрат",
+        "last_name": "Маратов",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е"
+    },
+    {
+        "citizen_id": "9c35ee7c-fa06-4692-af13-bdb9a04528d1",
+        "first_name": "Мансур",
+        "last_name": "Мусаев",
+        "school_id": "22204074",
+        "grade": 8,
+        "class_name": "8Г"
+    },
+    {
+        "citizen_id": "a77fa20e-166d-4a95-94f0-cdc80f65533f",
+        "first_name": "Кайратбек",
+        "last_name": "Гулбаев",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г"
+    },
+    {
+        "citizen_id": "bc5979a0-f4fd-4156-bfc6-ae628481106d",
+        "first_name": "Нуркан",
+        "last_name": "Исмаилов",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е"
+    },
+    {
+        "citizen_id": "fbd3b502-4435-468f-a6c8-cb3e071526b8",
+        "first_name": "Самат",
+        "last_name": "Кантурсунов",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е"
+    },
+    {
+        "citizen_id": "a557df5f-7cd4-432a-9048-670cb13c0b71",
+        "first_name": "Нурмухамед",
+        "last_name": "Балтабаев",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9А"
+    },
+    {
+        "citizen_id": "6f42da4f-f3ad-4a58-8f7c-30ed9a753b5d",
+        "first_name": "Салахаддин",
+        "last_name": "Маминов",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Д"
+    },
+    {
+        "citizen_id": "e4aa4062-0bfc-4f68-9a10-00fba4af947c",
+        "first_name": "Даниель",
+        "last_name": "Абдиев",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И"
+    },
+    {
+        "citizen_id": "8bd346a5-50df-40d9-b455-8d9a85a0c728",
+        "first_name": "Эмир",
+        "last_name": "Бактыбеков",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10В"
+    },
+    {
+        "citizen_id": "889b8062-36df-45e2-a0b5-b39bf66c04f8",
+        "first_name": "Кайнар",
+        "last_name": "Алишеров",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Г"
+    },
+    {
+        "citizen_id": "3b6975f9-23f1-480c-abd4-9829759f9ab8",
+        "first_name": "Абсамат",
+        "last_name": "Ибраев",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9И"
+    },
+    {
+        "citizen_id": "adba04de-5db4-4528-a1f5-fc6e1c899343",
+        "first_name": "Алинур",
+        "last_name": "Токторалиев",
+        "school_id": "22204074",
+        "grade": 9,
+        "class_name": "9Е"
+    },
+    {
+        "citizen_id": "35ab7454-7fc2-4734-8669-2ea8e0aff07c",
+        "first_name": "Расул",
+        "last_name": "Жаныбеков",
+        "school_id": "22204074",
+        "grade": 10,
+        "class_name": "10А"
+    }
+]
