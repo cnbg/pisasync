@@ -1,7 +1,6 @@
 <?php
 
+use App\Http\Controllers\StSyncController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/st/sync/{citizen_id}', [StSyncController::class, 'sync']);
