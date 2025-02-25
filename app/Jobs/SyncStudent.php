@@ -14,7 +14,9 @@ class SyncStudent implements ShouldQueue
     /**
      * Create a new job instance.
      */
-    public function __construct()
+    public function __construct(
+        protected User $user
+    )
     {
         //
     }
@@ -24,18 +26,8 @@ class SyncStudent implements ShouldQueue
      */
     public function handle(): void
     {
+        $user = $this->user;
         $srv = new StSyncService();
-        $user = User::query()
-            ->where(function ($query) {
-                $query->where('created', false)->orWhere('pdpa', false);
-            })
-            ->where(function ($query) {
-                $query->whereNull('try_at')->orWhere('try_at', '<', now()->subDay());
-            })
-            ->orderBy('school_id')
-            ->orderBy('grade')
-            ->orderBy('class_name')
-            ->first();
 
         if ($user) {
             if (!$user->created) {
@@ -53,8 +45,6 @@ class SyncStudent implements ShouldQueue
             }
 
             $user->update(['try_at' => now()]);
-
-            self::dispatch();
         }
     }
 }
