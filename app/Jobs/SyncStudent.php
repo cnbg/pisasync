@@ -29,22 +29,20 @@ class SyncStudent implements ShouldQueue
         $user = $this->user;
         $srv = new StSyncService();
 
-        if ($user) {
-            if (!$user->created) {
-                if ($srv->createClass($user)) {
-                    $user->created = $srv->createStudent($user);
-                }
+        if (!$user->created) {
+            if ($srv->createClass($user)) {
+                $user->created = $srv->createStudent($user);
             }
-
-            if ($user->created && !$user->pdpa) {
-                $user->pdpa = $srv->updatePdpa($user);
-            }
-
-            if ($user->created && $user->pdpa) {
-                $srv->getToken($user);
-            }
-
-            $user->update(['try_at' => now()]);
         }
+
+        if ($user->created && !$user->pdpa) {
+            $user->pdpa = $srv->updatePdpa($user);
+        }
+
+        if ($user->created && $user->pdpa) {
+            $srv->getToken($user);
+        }
+
+        $user->update(['try_at' => now()]);
     }
 }

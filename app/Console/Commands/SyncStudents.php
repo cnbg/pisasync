@@ -27,20 +27,18 @@ class SyncStudents extends Command
      */
     public function handle()
     {
-        $user = User::query()
+        $users = User::query()
+            ->whereNull('token')
             ->where(function ($query) {
-                $query->where('created', false)->orWhere('pdpa', false);
-            })
-            ->where(function ($query) {
-                $query->whereNull('try_at')->orWhere('try_at', '<', now()->subDay());
+                $query->whereNull('try_at');
             })
             ->orderBy('school_id')
             ->orderBy('grade')
             ->orderBy('class_name')
             ->get();
 
-        foreach ($user as $u) {
-            SyncStudent::dispatch($u)->delay(now()->addSecond());
+        foreach ($users as $user) {
+            dispatch(new SyncStudent($user))->delay(now()->addSecond());
         }
     }
 }
