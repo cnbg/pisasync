@@ -12,7 +12,7 @@ class PisaSeeder extends Seeder
      */
     public function run(): void
     {
-        $students = json_decode(file_get_contents(__DIR__ . '/data/students.json'), true);
+        $students = json_decode(file_get_contents(__DIR__ . '/data/2009-students.json'), true);
 
         foreach ($students as $st) {
             User::updateOrCreate([

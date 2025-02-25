@@ -20,7 +20,7 @@ services:
         volumes:
             - '.:/var/www/html'
         networks:
-            - sail
+            - localnet
         depends_on:
             - pgsql
             - redis
@@ -36,16 +36,10 @@ services:
         volumes:
             - 'pgsql:/var/lib/postgresql/data'
         networks:
-            - sail
+            - localnet
         healthcheck:
             test:
-                - CMD
-                - pg_isready
-                - '-q'
-                - '-d'
-                - '${DB_DATABASE}'
-                - '-U'
-                - '${DB_USERNAME}'
+              [ 'CMD', 'pg_isready -q -d ${DB_DATABASE} -U ${DB_USERNAME}' ]
             retries: 3
             timeout: 5s
     redis:
@@ -55,16 +49,14 @@ services:
         volumes:
             - 'redis:/data'
         networks:
-            - sail
+            - localnet
         healthcheck:
             test:
-                - CMD
-                - redis-cli
-                - ping
+              [ 'CMD', 'redis-cli', 'ping' ]
             retries: 3
             timeout: 5s
 networks:
-    sail:
+    localnet:
         driver: bridge
 volumes:
     pgsql:
