@@ -24,56 +24,21 @@ class SyncStudent implements ShouldQueue
      */
     public function handle(): void
     {
-        $url = env('CEREBRY_URL');
-        $jwt = env('CEREBRY_JWT');
-
-        $user = User::where('created', false)->orWhere('pdpa', false)->first();
+        $user = User::where('created', false)
+            ->orWhere('pdpa', false)
+            ->orderBy('school_id')
+            ->orderBy('grade')
+            ->orderBy('class_name')
+            ->first();
 
         if ($user) {
             if (!$user->created) {
-                $cr = Http::withHeaders(['jwt-token' => $jwt])->post("$url/school/$user->school_id/create_student/", $user);
-
-                if ($cr->failed()) {
-                    $err = $cr->json('non_field_errors.0');
-                    if (str_starts_with($err, 'User already registered with citizen_id')) {
-                        $user->update(['created' => true]);
-                        $user->update(['create_error' => null]);
-                    } else {
-                        $user->update(['created' => false]);
-                        $user->update(['create_error' => $cr->body()]);
-                    }
-                } else {
-                    if ($cr->json('status') === 'created') {
-                        $user->update(['created' => true]);
-                        $user->update(['create_error' => null]);
-                    } else {
-                        $user->update(['created' => false]);
-                        $user->update(['create_error' => $cr->body()]);
-                    }
+                $cl = $this->createClass($user);
+                if ($cl) {
+                    $this->createStudent($user);
                 }
-            }
-
-            if (!$user->pdpa) {
-                $pr = Http::withHeaders(['jwt-token' => $jwt])->post("$url/user/$user->citizen_id/allow-pdpa/", $user);
-
-                if ($pr->failed()) {
-                    $err = $pr->json('error');
-                    if ($err === 'user has already agreed to pdpa') {
-                        $user->update(['pdpa' => true]);
-                        $user->update(['pdpa_error' => null]);
-                    } else {
-                        $user->update(['pdpa' => false]);
-                        $user->update(['pdpa_error' => $pr->body()]);
-                    }
-                } else {
-                    if ($pr->json('message') === 'success') {
-                        $user->update(['pdpa' => true]);
-                        $user->update(['pdpa_error' => null]);
-                    } else {
-                        $user->update(['pdpa' => false]);
-                        $user->update(['pdpa_error' => $pr->body()]);
-                    }
-                }
+            } else if (!$user->pdpa) {
+                $this->updatePdpa($user);
             }
 
             $tr = Http::withHeaders(['jwt-token' => $jwt])->get("$url/user/$user->citizen_id/token/");
@@ -90,6 +55,87 @@ class SyncStudent implements ShouldQueue
             }
 
             self::dispatch();
+        }
+    }
+
+    private function createClass($user): bool
+    {
+        $url = env('CEREBRY_URL');
+        $jwt = env('CEREBRY_JWT');
+
+        $cr = Http::withHeaders(['jwt-token' => $jwt])->post("$url/school/$user->school_id/create_class/");
+
+        if ($cr->failed()) {
+            $err = $cr->json('non_field_errors.0');
+            if (str_contains(mb_strtolower($err), 'already exists for school')) {
+                return true;
+            } else {
+                $user->update(['created' => false]);
+                $user->update(['create_error' => $cr->body()]);
+            }
+        } else {
+            if ($cr->json('status') === 'created') {
+                return true;
+            } else {
+                $user->update(['created' => false]);
+                $user->update(['create_error' => $cr->body()]);
+            }
+        }
+
+        return false;
+    }
+
+    private function createStudent($user)
+    {
+        $url = env('CEREBRY_URL');
+        $jwt = env('CEREBRY_JWT');
+
+        $cr = Http::withHeaders(['jwt-token' => $jwt])->post("$url/school/$user->school_id/create_student/", $user);
+
+        if ($cr->failed()) {
+            $err = $cr->json('non_field_errors.0');
+            if (str_starts_with($err, 'User already registered with citizen_id')) {
+                $user->update(['created' => true]);
+                $user->update(['create_error' => null]);
+            } else {
+                $user->update(['created' => false]);
+                $user->update(['create_error' => $cr->body()]);
+            }
+        } else {
+            if ($cr->json('status') === 'created') {
+                $user->update(['created' => true]);
+                $user->update(['create_error' => null]);
+            } else {
+                $user->update(['created' => false]);
+                $user->update(['create_error' => $cr->body()]);
+            }
+        }
+    }
+
+    private function updatePdpa($user)
+    {
+        $url = env('CEREBRY_URL');
+        $jwt = env('CEREBRY_JWT');
+
+        $pr = Http::withHeaders(['jwt-token' => $jwt])->post("$url/user/$user->citizen_id/allow-pdpa/", $user);
+
+        if ($pr->failed()) {
+            $err = $pr->json('error');
+            if ($err === 'user has already agreed to pdpa') {
+                $user->update(['pdpa' => true]);
+                $user->update(['pdpa_error' => null]);
+            } else {
+                $user->update(['pdpa' => false]);
+                $user->update(['pdpa_error' => $pr->body()]);
+            }
+        } else {
+            if ($pr->json('message') === 'success') {
+                $user->update(['pdpa' => true]);
+                $user->update(['pdpa_error' => null]);
+            } else {
+                $user->update(['pdpa' => false]);
+                $user->update(['pdpa_error' => $pr->body()]);
+            }
         }
     }
 }
