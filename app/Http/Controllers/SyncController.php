@@ -12,7 +12,7 @@ class SyncController extends Controller
         $students = DB::connection('moncon')
             ->table('STUDENT as s')
             ->selectRaw('s."OBJECTID" as citizen_id, s."STUDENTNAME" as first_name, s."STUDENTSURNAME" as last_name,
-       sc."OKPONUMBER" as school_id, g."GRADENUMBER" as grade, g."GRADELETTER" as class_name')
+                         sc."OKPONUMBER" as school_id, g."GRADENUMBER" as grade, g."GRADELETTER" as class_name')
             ->join('SCHOOL as sc', 'sc.OBJECTID', '=', 's.SCHOOLID')
             ->leftJoin('GRADE as g', 'g.OBJECTID', '=', 's.GRADEID')
             ->where('s.BIRTHDATE', '>=', '2009-01-01')
@@ -22,8 +22,8 @@ class SyncController extends Controller
             ->get();
 
         $total = 0;
-        for ($i = 0; $i < count($students);) {
-            $st = $students[$i];
+        $error = [];
+        foreach ($students as $st) {
             try {
                 User::where('citizen_id', $st->citizen_id)->firstOrFail();
             } catch (\Throwable $th) {
@@ -38,16 +38,20 @@ class SyncController extends Controller
                     ]);
 
                     $total++;
-                    $i++;
                 } catch (\Throwable $th) {
-                    if($th->getCode() != 23505) {
-                        return $th->getMessage();
-                    }
+                    $error[] = [
+                        'citizen_id' => $st->citizen_id,
+                        'school_id' => $st->school_id,
+                        'message' => $th->getMessage(),
+                    ];
                 }
             }
         }
 
-        return $total;
+        return [
+            'total' => $total,
+            'error' => $error,
+        ];
 
     }
 
