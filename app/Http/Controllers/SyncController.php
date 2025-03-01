@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\SyncStudent;
 use App\Models\User;
 use Illuminate\Support\Facades\DB;
 
@@ -39,7 +40,7 @@ class SyncController extends Controller
         $error = [];
         foreach ($sts as $st) {
             try {
-                User::create([
+                $user = User::create([
                     'citizen_id' => mb_trim($st->citizen_id),
                     'first_name' => mb_trim($st->first_name),
                     'last_name' => mb_trim($st->last_name),
@@ -49,6 +50,8 @@ class SyncController extends Controller
                 ]);
 
                 $total++;
+
+                dispatch(new SyncStudent($user));
             } catch (\Throwable $th) {
                 $error[] = [
                     'citizen_id' => $st->citizen_id,
