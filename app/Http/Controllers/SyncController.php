@@ -9,24 +9,32 @@ class SyncController extends Controller
 {
     public function pisa()
     {
-        $users = User::all()->pluck('citizen_id')->toArray();
+        $users = User::select('citizen_id')->pluck('citizen_id')->toArray();
 
-        $students = DB::connection('moncon')
+        $sts = DB::connection('moncon')
             ->table('STUDENT as s')
-            ->selectRaw('s."OBJECTID" as citizen_id, s."STUDENTNAME" as first_name, s."STUDENTSURNAME" as last_name,
-                         sc."OKPONUMBER" as school_id, g."GRADENUMBER" as grade, g."GRADELETTER" as class_name')
+            ->selectRaw('s."OBJECTID" as citizen_id')
             ->join('SCHOOL as sc', 'sc.OBJECTID', '=', 's.SCHOOLID')
             ->leftJoin('GRADE as g', 'g.OBJECTID', '=', 's.GRADEID')
             ->where('s.BIRTHDATE', '>=', '2009-01-01')
             ->where('s.BIRTHDATE', '<', '2010-01-01')
             ->where('g.GRADENUMBER', '>', '6')
             ->where('g.GRADENUMBER', '<', '11')
-            ->whereNotIn('s.OBJECTID', $users)
+            ->pluck('citizen_id')
+            ->toArray();
+
+        $diff = array_diff($sts, $users);
+
+        $sts = DB::connection('moncon')
+            ->table('STUDENT as s')
+            ->selectRaw('s."OBJECTID" as citizen_id, s."STUDENTNAME" as first_name, s."STUDENTSURNAME" as last_name,
+                                   sc."OKPONUMBER" as school_id, g."GRADENUMBER" as grade, g."GRADELETTER" as class_name')
+            ->whereIn('s.OBJECTID', $diff)
             ->get();
 
         $total = 0;
         $error = [];
-        foreach ($students as $st) {
+        foreach ($sts as $st) {
             try {
                 User::create([
                     'citizen_id' => mb_trim($st->citizen_id),
