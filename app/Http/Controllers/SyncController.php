@@ -2,15 +2,57 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Support\Facades\DB;
 
 class SyncController extends Controller
 {
     public function pisa()
     {
-        return DB::connection('moncon')
-            ->table('STUDENT')
-            ->limit(10)
+        $students = DB::connection('moncon')
+            ->table('STUDENT as s')
+            ->selectRaw('s."OBJECTID" as citizen_id, s."STUDENTNAME" as first_name, s."STUDENTSURNAME" as last_name,
+       sc."OKPONUMBER" as school_id, g."GRADENUMBER" as grade, g."GRADELETTER" as class_name')
+            ->join('SCHOOL as sc', 'sc.OBJECTID', '=', 's.SCHOOLID')
+            ->leftJoin('GRADE as g', 'g.OBJECTID', '=', 's.GRADEID')
+            ->where('s.BIRTHDATE', '>=', '2009-01-01')
+            ->where('s.BIRTHDATE', '<', '2010-01-01')
+            ->where('g.GRADENUMBER', '>', '6')
+            ->where('g.GRADENUMBER', '<', '11')
             ->get();
+
+        $total = 0;
+        foreach ($students as $st) {
+            try {
+                User::where('citizen_id', $st['citizen_id'])->firstOrFail();
+            } catch (\Throwable $th) {
+                User::create([
+                    'citizen_id' => $st['citizen_id'],
+                    'first_name' => $st['first_name'],
+                    'last_name' => $st['last_name'],
+                    'grade' => $st['grade'],
+                    'class_name' => $this->letter($st['class_name']),
+                    'school_id' => $st['school_id'],
+                ]);
+
+                $total++;
+            }
+        }
+
+        return $total;
+
+    }
+
+    private function letter($l)
+    {
+        //$letters = 'АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ';
+
+        $l = mb_strtoupper(mb_trim($l));
+
+//        if (str_contains($letters, $l)) {
+//            return $l;
+//        }
+
+        return $l;
     }
 }
