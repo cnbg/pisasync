@@ -16,10 +16,15 @@ class SyncController extends Controller
             ->table('STUDENT as s')
             ->selectRaw('s."OBJECTID" as citizen_id')
             ->leftJoin('GRADE as g', 'g.OBJECTID', '=', 's.GRADEID')
-            ->where('s.BIRTHDATE', '>=', '2009-01-01')
-            ->where('s.BIRTHDATE', '<', '2010-01-01')
-            ->where('g.GRADENUMBER', '>', '6')
-            ->where('g.GRADENUMBER', '<', '11')
+            ->where(function ($query) {
+                $query->where('s.STUDENTPIN', 'ilike', '_____2009%')
+                    ->orWhere(function ($q) {
+                        $q->where('s.BIRTHDATE', '>=', '2009-01-01')
+                            ->where('s.BIRTHDATE', '<', '2010-01-01');
+                    });
+            })
+            ->where('g.GRADENUMBER', '>=', '6')
+            ->where('g.GRADENUMBER', '<=', '11')
             ->whereNotNull('s.SCHOOLID')
             ->whereNotNull('s.GRADEID')
             ->pluck('citizen_id')
@@ -44,7 +49,7 @@ class SyncController extends Controller
                     'citizen_id' => mb_trim($st->citizen_id),
                     'first_name' => mb_trim($st->first_name),
                     'last_name' => mb_trim($st->last_name),
-                    'grade' => mb_trim($st->grade),
+                    'grade' => max($st->grade, 7),
                     'class_name' => $this->letter($st->class_name),
                     'school_id' => mb_trim($st->school_id),
                 ]);
