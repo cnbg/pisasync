@@ -24,15 +24,15 @@ class SyncController extends Controller
         $total = 0;
         foreach ($students as $st) {
             try {
-                User::where('citizen_id', $st['citizen_id'])->firstOrFail();
+                User::where('citizen_id', $st->citizen_id)->firstOrFail();
             } catch (\Throwable $th) {
                 User::create([
-                    'citizen_id' => $st['citizen_id'],
-                    'first_name' => $st['first_name'],
-                    'last_name' => $st['last_name'],
-                    'grade' => $st['grade'],
-                    'class_name' => $this->letter($st['class_name']),
-                    'school_id' => $st['school_id'],
+                    'citizen_id' => $st->citizen_id,
+                    'first_name' => $st->first_name,
+                    'last_name' => $st->last_name,
+                    'grade' => $st->grade,
+                    'class_name' => $this->letter($st->class_name),
+                    'school_id' => $st->school_id,
                 ]);
 
                 $total++;
