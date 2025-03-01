@@ -45,11 +45,12 @@ class SyncController extends Controller
         $error = [];
         foreach ($sts as $st) {
             try {
+                $grade = $st->grade < 7 ? 7 : (min($st->grade, 10));
                 $user = User::create([
                     'citizen_id' => mb_trim($st->citizen_id),
                     'first_name' => mb_trim($st->first_name),
                     'last_name' => mb_trim($st->last_name),
-                    'grade' => max($st->grade, 7),
+                    'grade' => $grade,
                     'class_name' => $this->letter($st->class_name),
                     'school_id' => mb_trim($st->school_id),
                 ]);
