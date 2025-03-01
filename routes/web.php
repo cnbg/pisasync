@@ -1,6 +1,7 @@
 <?php
 
-use App\Http\Controllers\StSyncController;
+use App\Http\Controllers as Front;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/st/sync/{citizen_id}', [StSyncController::class, 'sync']);
+Route::get('/sync/st/{citizen_id}', [Front\StSyncController::class, 'sync']);
+Route::get('/sync/pisa', [Front\SyncController::class, 'pisa']);

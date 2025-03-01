@@ -97,6 +97,21 @@ return [
             'sslmode' => 'prefer',
         ],
 
+        'moncon' => [
+            'driver' => 'pgsql',
+            'url' => env('DB_MON_URL'),
+            'host' => env('DB_MON_HOST', '127.0.0.1'),
+            'port' => env('DB_MON_PORT', '5432'),
+            'database' => env('DB_MON_DATABASE', 'laravel'),
+            'username' => env('DB_MON_USERNAME', 'root'),
+            'password' => env('DB_MON_PASSWORD', ''),
+            'charset' => env('DB_MON_CHARSET', 'utf8'),
+            'prefix' => '',
+            'prefix_indexes' => true,
+            'search_path' => 'public',
+            'sslmode' => 'prefer',
+        ],
+
         'sqlsrv' => [
             'driver' => 'sqlsrv',
             'url' => env('DB_URL'),
