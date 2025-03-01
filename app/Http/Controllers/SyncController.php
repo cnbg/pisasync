@@ -9,6 +9,8 @@ class SyncController extends Controller
 {
     public function pisa()
     {
+        $users = User::all()->pluck('citizen_id')->toArray();
+
         $students = DB::connection('moncon')
             ->table('STUDENT as s')
             ->selectRaw('s."OBJECTID" as citizen_id, s."STUDENTNAME" as first_name, s."STUDENTSURNAME" as last_name,
@@ -19,32 +21,29 @@ class SyncController extends Controller
             ->where('s.BIRTHDATE', '<', '2010-01-01')
             ->where('g.GRADENUMBER', '>', '6')
             ->where('g.GRADENUMBER', '<', '11')
+            ->whereNotIn('s.OBJECTID', $users)
             ->get();
 
         $total = 0;
         $error = [];
         foreach ($students as $st) {
             try {
-                User::where('citizen_id', $st->citizen_id)->firstOrFail();
-            } catch (\Throwable $th) {
-                try {
-                    User::create([
-                        'citizen_id' => mb_trim($st->citizen_id),
-                        'first_name' => mb_trim($st->first_name),
-                        'last_name' => mb_trim($st->last_name),
-                        'grade' => mb_trim($st->grade),
-                        'class_name' => $this->letter($st->class_name),
-                        'school_id' => mb_trim($st->school_id),
-                    ]);
+                User::create([
+                    'citizen_id' => mb_trim($st->citizen_id),
+                    'first_name' => mb_trim($st->first_name),
+                    'last_name' => mb_trim($st->last_name),
+                    'grade' => mb_trim($st->grade),
+                    'class_name' => $this->letter($st->class_name),
+                    'school_id' => mb_trim($st->school_id),
+                ]);
 
-                    $total++;
-                } catch (\Throwable $th) {
-                    $error[] = [
-                        'citizen_id' => $st->citizen_id,
-                        'school_id' => $st->school_id,
-                        'message' => $th->getMessage(),
-                    ];
-                }
+                $total++;
+            } catch (\Throwable $th) {
+                $error[] = [
+                    'citizen_id' => $st->citizen_id,
+                    'school_id' => $st->school_id,
+                    'message' => $th->getMessage(),
+                ];
             }
         }
 
