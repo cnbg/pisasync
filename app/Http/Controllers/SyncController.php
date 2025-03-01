@@ -14,12 +14,13 @@ class SyncController extends Controller
         $sts = DB::connection('moncon')
             ->table('STUDENT as s')
             ->selectRaw('s."OBJECTID" as citizen_id')
-            ->join('SCHOOL as sc', 'sc.OBJECTID', '=', 's.SCHOOLID')
             ->leftJoin('GRADE as g', 'g.OBJECTID', '=', 's.GRADEID')
             ->where('s.BIRTHDATE', '>=', '2009-01-01')
             ->where('s.BIRTHDATE', '<', '2010-01-01')
             ->where('g.GRADENUMBER', '>', '6')
             ->where('g.GRADENUMBER', '<', '11')
+            ->whereNotNull('s.SCHOOLID')
+            ->whereNotNull('s.GRADEID')
             ->pluck('citizen_id')
             ->toArray();
 
@@ -29,6 +30,8 @@ class SyncController extends Controller
             ->table('STUDENT as s')
             ->selectRaw('s."OBJECTID" as citizen_id, s."STUDENTNAME" as first_name, s."STUDENTSURNAME" as last_name,
                                    sc."OKPONUMBER" as school_id, g."GRADENUMBER" as grade, g."GRADELETTER" as class_name')
+            ->join('SCHOOL as sc', 'sc.OBJECTID', '=', 's.SCHOOLID')
+            ->leftJoin('GRADE as g', 'g.OBJECTID', '=', 's.GRADEID')
             ->whereIn('s.OBJECTID', $diff)
             ->get();
 
