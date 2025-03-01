@@ -22,20 +22,28 @@ class SyncController extends Controller
             ->get();
 
         $total = 0;
-        foreach ($students as $st) {
+        for ($i = 0; $i < count($students);) {
+            $st = $students[$i];
             try {
                 User::where('citizen_id', $st->citizen_id)->firstOrFail();
             } catch (\Throwable $th) {
-                User::create([
-                    'citizen_id' => mb_trim($st->citizen_id),
-                    'first_name' => mb_trim($st->first_name),
-                    'last_name' => mb_trim($st->last_name),
-                    'grade' => mb_trim($st->grade),
-                    'class_name' => $this->letter($st->class_name),
-                    'school_id' => mb_trim($st->school_id),
-                ]);
+                try {
+                    User::create([
+                        'citizen_id' => mb_trim($st->citizen_id),
+                        'first_name' => mb_trim($st->first_name),
+                        'last_name' => mb_trim($st->last_name),
+                        'grade' => mb_trim($st->grade),
+                        'class_name' => $this->letter($st->class_name),
+                        'school_id' => mb_trim($st->school_id),
+                    ]);
 
-                $total++;
+                    $total++;
+                    $i++;
+                } catch (\Throwable $th) {
+                    if($th->getCode() != 23505) {
+                        return $th->getMessage();
+                    }
+                }
             }
         }
 
