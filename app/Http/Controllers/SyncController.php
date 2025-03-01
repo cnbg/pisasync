@@ -27,12 +27,12 @@ class SyncController extends Controller
                 User::where('citizen_id', $st->citizen_id)->firstOrFail();
             } catch (\Throwable $th) {
                 User::create([
-                    'citizen_id' => $st->citizen_id,
-                    'first_name' => $st->first_name,
-                    'last_name' => $st->last_name,
-                    'grade' => $st->grade,
+                    'citizen_id' => mb_trim($st->citizen_id),
+                    'first_name' => mb_trim($st->first_name),
+                    'last_name' => mb_trim($st->last_name),
+                    'grade' => mb_trim($st->grade),
                     'class_name' => $this->letter($st->class_name),
-                    'school_id' => $st->school_id,
+                    'school_id' => mb_trim($st->school_id),
                 ]);
 
                 $total++;
