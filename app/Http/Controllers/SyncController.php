@@ -20,9 +20,25 @@ class SyncController extends Controller
             ->orderBy('class_name')
             ->get();
 
+        $total = 0;
+        $error = [];
         foreach ($users as $user) {
-            dispatch(new SyncStudent($user));
+            try {
+                dispatch(new SyncStudent($user));
+                $total++;
+            } catch (\Exception $e) {
+                $error[] = [
+                    'citizen_id' => $user->citizen_id,
+                    'school_id' => $user->school_id,
+                    'message' => $e->getMessage(),
+                ];
+            }
         }
+
+        return [
+            'total' => $total,
+            'error' => $error,
+        ];
     }
 
     public function pisa()
@@ -75,11 +91,11 @@ class SyncController extends Controller
                 $total++;
 
                 dispatch(new SyncStudent($user));
-            } catch (\Throwable $th) {
+            } catch (\Exception $e) {
                 $error[] = [
                     'citizen_id' => $st->citizen_id,
                     'school_id' => $st->school_id,
-                    'message' => $th->getMessage(),
+                    'message' => $e->getMessage(),
                 ];
             }
         }
