@@ -8,6 +8,23 @@ use Illuminate\Support\Facades\DB;
 
 class SyncController extends Controller
 {
+    public function stjob()
+    {
+        $users = User::query()
+            ->whereNull('token')
+            ->where(function ($query) {
+                $query->whereNull('try_at');
+            })
+            ->orderBy('school_id')
+            ->orderBy('grade')
+            ->orderBy('class_name')
+            ->get();
+
+        foreach ($users as $user) {
+            dispatch(new SyncStudent($user));
+        }
+    }
+
     public function pisa()
     {
         $users = User::select('citizen_id')->pluck('citizen_id')->toArray();
